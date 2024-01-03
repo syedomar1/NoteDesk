@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Alert(props) {
     const capitalize = (word) =>{
-        if (word == "danger"){
+        if (word === "danger"){
           word = "error"
         }
         const lower = word.toLowerCase();
