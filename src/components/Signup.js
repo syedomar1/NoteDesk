@@ -23,7 +23,7 @@ const Signup = (props) => {
           props.showAlert("Account Created Successfully", "success")
         }
         else{
-          props.showAlert("Invalid credentials", "danger")
+          props.showAlert(" User Aldready exists", "danger")
         }
   }
   const onChange = (e) => {
