@@ -17,7 +17,7 @@ const NoteState = (props) => {
   // }, 2000);
   // }
   
-  const host = "http://localhost:10000"
+  const host = "http://127.0.0.1:10000"
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial)
   
