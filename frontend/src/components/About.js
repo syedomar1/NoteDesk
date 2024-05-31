@@ -3,10 +3,6 @@ import React from 'react'
 // import noteContext from '../context/notes/noteContext'
 
 const About = (props) => {
-  // const a = useContext(noteContext)
-  // useEffect(() => {
-  //   a.update()
-  // }, [])
   return (
     <div className="container">
       <h1 className="my-3" style={{color:props.mode === 'dark'?'white': '#042743'}}>About NotesDesk</h1>
@@ -30,7 +26,7 @@ const About = (props) => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-            NotesDesk gives you a way to store any note quickly and efficiently which can be accessed updated or deleted. You would'nt blame your brain or get scoldings for forgetting when you have NoteDesk in your hands. A very secured login and authentification page to keep you safe.
+            NoteDesk gives you a way to store any note quickly and efficiently which can be accessed updated or deleted. You would'nt blame your brain or get scoldings for forgetting when you have NoteDesk in your hands. A very secured login and authentification page to keep you safe.
             </div>
           </div>
         </div>
